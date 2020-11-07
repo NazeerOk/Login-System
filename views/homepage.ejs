@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body>
+    <div class="container">
+        
+            
+            <div class="middle">
+                <h3 id="details">Welcome <%= user.name %> </h3>
+                <h3 id="details">Email: <%= user.email %> </h3>
+                <img id="image" src=<%= user.pic %>  alt="Disable your AdBlocker" srcset="">
+                <a class="btn" href="/logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
